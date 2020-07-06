@@ -1,0 +1,312 @@
+
+html {font-size: 16px;}
+
+/* Font Rules */
+
+
+p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 1.875rem;
+    color: #333333;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #333333;
+    font-size: 1.25rem;
+}
+
+/* Body */
+
+
+body {
+    margin: 0;
+}
+
+main {
+    margin-top: 0;
+    margin-bottom: 3.125rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    display: block;
+}
+
+/* Nav bar */
+
+nav {
+    width: 100%;
+    display: inline-block;
+}
+
+nav img {
+    width: 2.5rem;
+    display: inline-block;
+    padding-left: 0.9375rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    float: right;
+    padding-right: 3.125rem;
+    padding-top: 1.3125rem;
+    padding-bottom: 1.3125rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+li {
+    display: inline-block;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+li a:link,
+li a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #666666;
+}
+
+/* Banner */
+
+.banner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 3.75rem;
+    background-image: url(images/bread-banner.jpg);
+    background-size: cover;
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f2f2f2;
+    text-shadow: #000 0rem 0rem 6.25rem;
+
+}
+
+/* Quote section */
+
+.quote {
+     text-align: center;
+     width: 100%;
+     margin-bottom: 2rem;
+     margin-top: 2.5rem;
+ }
+
+/* 'Who are we' section */
+
+.who {
+    margin: 0 auto;
+    display: inline-flex;
+    height: 31.25rem;
+    width: 100%;
+    margin-bottom: 6.25rem;
+}
+
+.who .who-text {
+    display: inline-block;
+    height: fit-content;
+    width: 49%;
+    padding-bottom: 3.125rem;
+    padding-top: 3.125rem;
+    padding-right: 3.125rem;
+}
+
+.who img {
+    display: inline-block;
+    width: 49%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+
+
+
+/* 'What we do' section */
+
+.what {
+    margin-bottom: 4.375rem;
+    display: inline-flex;
+    height: 31.25rem;
+    width: 100%;
+
+}
+
+.what .what-text {
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 3.125rem;
+    padding-top: 3.125rem;
+    padding-left: 3.125rem;
+}
+
+.what img {
+    display: inline-block;
+    width: 49%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+
+
+/* Footer */
+
+footer {
+    margin-top: 3.125rem;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+.social-media {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.social-media img {
+    width: 1.25rem;
+    display: inline-block;
+    margin: 0 1.25rem;
+}
+
+hr {
+    max-width: 25rem;
+    border: 0;
+    border-top: 1px solid #f2f2f2;
+    margin-top: 3.125rem;
+}
+
+.footnote {
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.9375rem;
+    background-color: #e19634af;
+    
+}
+
+button a:link,
+button a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #e19634;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 800px) {
+    
+    main {
+        margin: 0 auto;
+    }
+
+    .who {
+        display: block;
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .who .who-text {
+        display: block;
+        width: 90%;
+        padding: 0;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .who img {
+        display: block;
+        width: 100%;
+        max-height: 12.5rem;
+    }
+
+    .what {
+        display: flex;
+        flex-flow: column;
+        height: fit-content;
+    }
+
+    .what .what-text {
+        order: 1;
+        display: block;
+        width: 90%;
+        padding: 0;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .what img {
+        order: 2;
+        display: block;
+        width: 100%;
+        max-height: 12.5rem;
+    }
+
+    .button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    hr {
+        max-width: 25rem;
+        border: 0;
+        border-top: 1px solid #f2f2f2;
+        margin-top: 3.125rem;
+    }
+
+    footer {
+        margin-top: 1em;
+    }
+} 
