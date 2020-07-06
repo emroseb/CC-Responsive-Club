@@ -253,6 +253,8 @@ button:hover {
     }
     
     ul {
+        padding-top: 0.78125rem;
+        padding-bottom: 0.78125rem;
         padding-right: 1rem;
         padding-left: 1rem
     }
