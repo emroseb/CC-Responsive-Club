@@ -244,6 +244,41 @@ button:hover {
 /* Responsive */
 
 @media only screen and (max-width: 800px) {
+    .banner {
+        font-size: 3rem;
+    }
+    
+    nav img {
+        width: 2rem;
+    }
+    
+    ul {
+        padding-right: 1rem;
+    }
+    
+    li {
+        font-size: .75rem;
+        display: inline-block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }.banner {
+        font-size: 3rem;
+    }
+    
+    nav img {
+        width: 2rem;
+    }
+    
+    ul {
+        padding-right: 1rem;
+    }
+    
+    li {
+        font-size: .75rem;
+        display: inline-block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     
     main {
         margin: 0 auto;
