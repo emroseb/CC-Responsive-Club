@@ -253,14 +253,14 @@ button:hover {
     }
     
     ul {
-        padding-right: .75rem;
+        padding-right: 0.70rem;
     }
     
     li {
-        font-size: .75rem;
+        font-size: 0.75rem;
         display: inline-block;
-        padding-left: 1rem;
-        padding-right: .75rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
     }
     
     main {
